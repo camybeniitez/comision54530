@@ -1,0 +1,10 @@
+@mixin flex($aling-items: center) {
+  display: flex;
+  align-items: $aling-items;
+  padding-right: 10px;
+}
+@mixin flex($align-items: center) {
+  display: flex;
+  justify-content: $justify-content;
+  align-items: $align-items;
+}

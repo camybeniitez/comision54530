@@ -1,20 +1,9 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-header {
-  width: 100%;
-  nav {
-    width: 100%;
-    ul {
-      display: flex;
-      list-style-type: none;
-      li {
-        a {
-          text-decoration: none;
-        }
-      }
-    }
-  }
-}
+@import "./utilities/variables";
+@import "./utilities/mixins";
+@import "./base/reset";
+@import "./layout/header";
+@import "./layout/main-index";
+@import "./layout/footer";
+@import "./layout/media1024";
+@import "./layout/media768";
+@import "./layout/media425";

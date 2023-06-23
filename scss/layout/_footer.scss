@@ -1,0 +1,22 @@
+footer {
+  text-align: center;
+  color: white;
+  background-color: black;
+  height: 900%;
+  width: 100%;
+  .facebook {
+    position: fixed;
+    bottom: 10px;
+    right: 90px;
+  }
+  .instagram {
+    position: fixed;
+    bottom: 10px;
+    right: 50px;
+  }
+  .whatsapp {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+  }
+}

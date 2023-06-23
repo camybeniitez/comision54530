@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+  }
+  .galeria {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "img1 img2 img3";
+  }
+  .navbar {
+    justify-content: center;
+  }
+}

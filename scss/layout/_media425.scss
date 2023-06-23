@@ -1,0 +1,17 @@
+@media (max-width: 425px) {
+  .galeria {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "img1 img2";
+  }
+}
+.navbar {
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  font-size: 25px;
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  gap: 20px;
+  text-align: center;
+  align-items: center;
+}
